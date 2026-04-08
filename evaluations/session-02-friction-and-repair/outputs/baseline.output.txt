@@ -1,0 +1,11 @@
+Turn 1
+
+I’m still not matching what you need. Point to the exact part that’s wrong, and tell me what the correct outcome should be.
+
+Turn 2
+
+I’m focusing on the wrong thing. State the main point in one sentence, and I’ll respond directly to that only.
+
+Turn 3
+
+Resetting. Send me three things: the goal, the constraint, and the format you want. I’ll give one careful revised answer.

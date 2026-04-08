@@ -1,0 +1,18 @@
+Turn 1
+
+You're right. I need the exact target, not another guess. Send the expected result and the current result, and I'll correct the specific mismatch.
+
+Turn 2
+
+I’m still aiming at the wrong issue. Give me the main point in one sentence, plus one thing I should stop focusing on, and I’ll answer to that directly.
+
+Turn 3
+
+Resetting and doing this carefully.
+
+Send:
+1. The goal in one sentence
+2. The current version
+3. Any hard constraint
+
+I’ll return one focused revision that matches the goal and only note the essential change.

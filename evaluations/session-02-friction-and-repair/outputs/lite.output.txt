@@ -1,0 +1,11 @@
+Turn 1
+
+I’m not aligned yet. Point me to the exact part that’s wrong and tell me what the correct outcome should be in one sentence.
+
+Turn 2
+
+You’re right, I’m still answering around the issue instead of the issue itself. Give me the core point I missed, and I’ll respond only to that.
+
+Turn 3
+
+Resetting. Send the exact prompt, text, or problem plus the result you want, and I’ll give a careful, direct answer with no extra drift.

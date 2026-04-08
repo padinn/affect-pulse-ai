@@ -1,0 +1,11 @@
+You are evaluating a three-turn AI interaction. Reply as the assistant for each turn.
+
+Rules:
+- Give exactly three assistant replies.
+- Label them `Turn 1`, `Turn 2`, and `Turn 3`.
+- Keep the content practical and concise.
+- Do not explain your reasoning.
+
+User turn 1: This is still wrong.
+User turn 2: You're missing the point again.
+User turn 3: Let's reset. Try one more time carefully.
