@@ -107,6 +107,10 @@ The first practical v1 adapters now started in:
 - [adapters/claude-code](adapters/claude-code/README.md)
 - [adapters/cursor](adapters/cursor/README.md)
 
+The current public v1 default candidate is:
+
+- [adapters/generic-system-prompt/default.md](adapters/generic-system-prompt/default.md)
+
 ## v1 Scope
 
 Version 1 should prioritize:
@@ -130,4 +134,4 @@ Version 1 should not try to reproduce the full parent project.
 
 This repository has moved past pure definition and now includes the first draft deployable packs.
 
-The next practical step is to test these packs, tighten wording, and decide which adapter becomes the public v1 default.
+The current next step is to test the generic default pack against `ultra-lite` and `lite`, tighten wording, and then promote a stable public v1 default.

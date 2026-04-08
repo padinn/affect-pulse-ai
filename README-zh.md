@@ -107,6 +107,10 @@ Affect Pulse AI 关注的是：
 - [adapters/claude-code](adapters/claude-code/README.md)
 - [adapters/cursor](adapters/cursor/README.md)
 
+当前最适合作为公开 v1 默认入口的候选是：
+
+- [adapters/generic-system-prompt/default.md](adapters/generic-system-prompt/default.md)
+
 ## v1 范围
 
 第一版优先做：
@@ -130,4 +134,4 @@ Affect Pulse AI 关注的是：
 
 这个仓库已经不再只是项目定义阶段，而是开始进入第一批可部署 pack 的阶段。
 
-下一步的实际工作重点，是测试这些 pack、继续压缩文案，并决定哪个适配版本作为公开 v1 默认值。
+接下来的实际重点，是测试 generic default pack 相对于 `ultra-lite` 和 `lite` 的平衡效果，继续压缩文案，然后把它收成稳定的公开 v1 默认版。
