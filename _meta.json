@@ -1,0 +1,9 @@
+{
+  "name": "affect-pulse-ai",
+  "version": "0.2.0",
+  "description": "A low-token OpenClaw affect layer derived from Intrinsic Affect for AI. It gives everyday AI use a stronger feeling of emotional continuity, caution, repair, and expressive presence without the full token cost of a larger affective architecture.",
+  "author": "Guo Zhuoqiang",
+  "homepage": "https://github.com/padinn/affect-pulse-ai",
+  "tags": ["ai", "emotion", "openclaw", "affect", "agents"],
+  "emoji": "💓"
+}

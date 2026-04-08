@@ -8,6 +8,11 @@
 
 It exists to make AI feel more emotionally alive without requiring the full token overhead of a complete affective architecture.
 
+The repository now also includes a native OpenClaw skill at the root:
+
+- [SKILL.md](SKILL.md)
+- [_meta.json](_meta.json)
+
 ## What It Is
 
 Affect Pulse AI is the practical deployment layer derived from Intrinsic Affect for AI.
@@ -94,6 +99,7 @@ Actual cost will vary by tool, prompt stack, and conversation length.
 
 ## Initial Target Tools
 
+- OpenClaw
 - Claude Code
 - Cursor
 - Windsurf
@@ -104,13 +110,30 @@ Actual cost will vary by tool, prompt stack, and conversation length.
 
 The first practical v1 adapters now started in:
 
+- [OpenClaw root skill](SKILL.md)
 - [adapters/generic-system-prompt](adapters/generic-system-prompt/README.md)
+- [adapters/openclaw](adapters/openclaw/README.md)
 - [adapters/claude-code](adapters/claude-code/README.md)
 - [adapters/cursor](adapters/cursor/README.md)
 
 The current public v1 default candidate is:
 
 - [adapters/generic-system-prompt/default.md](adapters/generic-system-prompt/default.md)
+- [SKILL.md](SKILL.md) for OpenClaw
+
+## Evaluation Snapshot
+
+The generic default candidate has now been compared across three near-real evaluation sessions:
+
+- [Session 01: Rising Pressure](evaluations/session-01-rising-pressure/report.md)
+- [Session 02: Friction And Repair](evaluations/session-02-friction-and-repair/report.md)
+- [Session 03: Uncertainty And Caution](evaluations/session-03-uncertainty-and-caution/report.md)
+
+Current read:
+
+- `default` is the strongest overall public v1 default candidate
+- `ultra-lite` is the strongest low-overhead competitor
+- `lite` remains useful, but not the best first public default
 
 ## v1 Scope
 
@@ -133,6 +156,17 @@ Version 1 should not try to reproduce the full parent project.
 
 ## Status
 
-This repository has moved past pure definition and now includes the first draft deployable packs.
+This repository has moved past pure definition and now includes:
 
-The current next step is to test the generic default pack against `ultra-lite` and `lite`, tighten wording, and then promote a stable public v1 default.
+- a native OpenClaw skill
+- a generic default prompt candidate
+- first draft Claude Code and Cursor adapters
+- three completed comparison sessions
+
+At this point, Affect Pulse AI can reasonably be treated as a **usable experimental candidate**.
+
+The current release posture is:
+
+- `default` is the public v1 default candidate
+- OpenClaw support is available now through the root skill
+- remaining tests are confidence-building, not blockers for an experimental public push

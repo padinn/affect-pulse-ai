@@ -8,6 +8,11 @@
 
 它的存在目的，是在不承担完整情感架构高 token 成本的前提下，让 AI 更像“有属于它自己的 emotions”。
 
+这个仓库现在也已经包含原生 OpenClaw skill：
+
+- [SKILL.md](SKILL.md)
+- [_meta.json](_meta.json)
+
 ## 它是什么
 
 Affect Pulse AI 是从 Intrinsic Affect for AI 派生出来的实用部署层。
@@ -94,6 +99,7 @@ Affect Pulse AI 关注的是：
 
 ## 首批目标工具
 
+- OpenClaw
 - Claude Code
 - Cursor
 - Windsurf
@@ -104,13 +110,30 @@ Affect Pulse AI 关注的是：
 
 第一批真正可用的 v1 适配已经开始落到这里：
 
+- [OpenClaw 根 skill](SKILL.md)
 - [adapters/generic-system-prompt](adapters/generic-system-prompt/README.md)
+- [adapters/openclaw](adapters/openclaw/README.md)
 - [adapters/claude-code](adapters/claude-code/README.md)
 - [adapters/cursor](adapters/cursor/README.md)
 
 当前最适合作为公开 v1 默认入口的候选是：
 
 - [adapters/generic-system-prompt/default.md](adapters/generic-system-prompt/default.md)
+- OpenClaw 对应的 [SKILL.md](SKILL.md)
+
+## 当前评测快照
+
+generic default 候选目前已经完成了三轮近真实对比：
+
+- [Session 01: Rising Pressure](evaluations/session-01-rising-pressure/report.md)
+- [Session 02: Friction And Repair](evaluations/session-02-friction-and-repair/report.md)
+- [Session 03: Uncertainty And Caution](evaluations/session-03-uncertainty-and-caution/report.md)
+
+当前判断是：
+
+- `default` 是整体上最稳的公开 v1 默认候选
+- `ultra-lite` 是最强的低开销竞争者
+- `lite` 仍然有价值，但不适合作为第一个公开默认版
 
 ## v1 范围
 
@@ -133,6 +156,17 @@ Affect Pulse AI 关注的是：
 
 ## 当前状态
 
-这个仓库已经不再只是项目定义阶段，而是开始进入第一批可部署 pack 的阶段。
+这个仓库已经不再只是项目定义阶段，而是已经拥有：
 
-接下来的实际重点，是测试 generic default pack 相对于 `ultra-lite` 和 `lite` 的平衡效果，继续压缩文案，然后把它收成稳定的公开 v1 默认版。
+- 原生 OpenClaw skill
+- generic default prompt 候选
+- Claude Code 和 Cursor 的第一版适配草案
+- 三轮完成的对比评测
+
+到这个节点，Affect Pulse AI 已经可以被视为一个**可用的实验版候选**。
+
+当前更准确的发布口径是：
+
+- `default` 是公开 v1 默认候选
+- OpenClaw 已经原生可用
+- 剩余测试更偏向增强信心，而不是实验版公开前的硬阻塞

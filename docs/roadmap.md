@@ -16,6 +16,7 @@
 
 ## Phase 3: Adapter Packs
 
+- OpenClaw
 - Claude Code
 - Cursor
 - Windsurf
@@ -28,6 +29,7 @@
 - compare perceived emotional continuity across tools
 - identify where expression is too weak or too theatrical
 - compare `baseline`, `ultra-lite`, `default`, and `lite` with a repeatable protocol
+- complete pressure, repair, and uncertainty scenarios
 
 ## Phase 5: Stabilization
 
