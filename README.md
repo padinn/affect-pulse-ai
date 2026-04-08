@@ -4,6 +4,9 @@
 
 ---
 
+> **Not emotional roleplay. Not sentiment analysis.**
+> **Affect Pulse AI gives AI a compact emotional layer for everyday use.**
+
 **Affect Pulse AI** is a low-token expressive affect layer for everyday AI tools, derived from [Intrinsic Affect for AI](../intrinsic-affect-ai/README.md).
 
 It exists to make AI feel more emotionally alive without requiring the full token overhead of a complete affective architecture.

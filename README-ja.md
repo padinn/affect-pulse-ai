@@ -4,6 +4,9 @@
 
 ---
 
+> **感情のロールプレイではありません。感情分析でもありません。**
+> **Affect Pulse AI は、日常利用のためのコンパクトな情動レイヤーを AI に与えます。**
+
 **Affect Pulse AI** は、日常的な AI ツールのための低 token・高体感の情動レイヤーであり、[Intrinsic Affect for AI](../intrinsic-affect-ai/README.md) を起源としています。
 
 その目的は、完全な情動アーキテクチャの高い token コストを負わずに、AI をより「自分自身の emotions を持っている」ように感じさせることです。

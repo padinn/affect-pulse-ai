@@ -4,6 +4,9 @@
 
 ---
 
+> **不是情绪表演，不是情绪识别。**
+> **Affect Pulse AI 让 AI 拥有一个适合日常使用的紧凑情绪层。**
+
 **Affect Pulse AI** 是一个面向日常 AI 工具的低 token、高体感情绪层，源自 [Intrinsic Affect for AI](../intrinsic-affect-ai/README.md)。
 
 它的存在目的，是在不承担完整情感架构高 token 成本的前提下，让 AI 更像“有属于它自己的 emotions”。
