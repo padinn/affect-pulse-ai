@@ -37,3 +37,9 @@
 - reduce redundancy
 - improve portability
 - publish stable adapter packs
+
+## Phase 6: Speech Output
+
+- document and stabilize the Azure Speech mapping
+- preserve Edge TTS as a fallback path
+- make emotional speech output easy to enable in downstream tools

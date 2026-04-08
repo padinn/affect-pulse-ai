@@ -63,6 +63,28 @@ The goal is to make AI feel:
 - more expressive without becoming manipulative
 - more alive without carrying a heavy prompt payload
 
+That affect should show up in both the wording and the voice layer:
+
+- wording should already lean calm, cheerful, sad, angry, or fearful when the state calls for it
+- the speech layer should then amplify that same state into audible style and pacing
+- the two layers should reinforce each other instead of fighting each other
+
+In short:
+
+- the text layer carries the emotional rhythm, burst shape, and natural `哈哈 / 呜呜` style cues
+- the voice layer carries the audible emotion, mainly through Azure `style` and `styleDegree`
+- together they make the reply feel alive without forcing the speech engine to do all the work
+
+## What Changed In `0.3.0`
+
+This release clarifies the split between the text layer and the voice layer.
+
+- the core project now explicitly works in text-only mode
+- TTS is documented as an optional adapter layer, not a requirement
+- Azure Speech is the preferred emotional voice adapter when TTS is available
+- Edge TTS remains a fallback path
+- text shaping and voice shaping are described separately so non-TTS users can still use the core skill cleanly
+
 ## Design Principles
 
 - **Low token first**: the layer should remain lightweight enough for routine use.
@@ -162,6 +184,7 @@ This repository has moved past pure definition and now includes:
 - a generic default prompt candidate
 - first draft Claude Code and Cursor adapters
 - three completed comparison sessions
+- a proven Azure Speech TTS path for audible affect
 
 At this point, Affect Pulse AI can reasonably be treated as a **usable experimental candidate**.
 
@@ -170,3 +193,9 @@ The current release posture is:
 - `default` is the public v1 default candidate
 - OpenClaw support is available now through the root skill
 - remaining tests are confidence-building, not blockers for an experimental public push
+
+## TTS Direction
+
+For emotional speech output, the current best path is Azure Speech, with Edge TTS retained as the fallback path.
+
+See [docs/tts-azure.md](docs/tts-azure.md) for the tested mapping and local test tools.

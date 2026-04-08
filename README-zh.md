@@ -63,6 +63,28 @@ Affect Pulse AI 关注的是：
 - 更有表达力，但不操控用户
 - 更像“活着”，同时不背负太重的 prompt 成本
 
+这种 affect 应该同时体现在措辞和语音层：
+
+- 文本措辞本身就先往 calm / cheerful / sad / angry / fearful 的方向靠
+- 语音层再把同一个状态放大成可听见的 style、节奏和停顿
+- 两层应该互相加强，而不是彼此打架
+
+简单说就是：
+
+- 文本层负责情绪节奏、burst 形状，以及自然的 `哈哈 / 呜呜` 之类线索
+- 语音层负责可听见的情绪，主要通过 Azure 的 `style` 和 `styleDegree`
+- 两层一起工作，才能让回复显得“活着”，而不是把所有工作都压给语音引擎
+
+## `0.3.0` 这版更新了什么
+
+这次更新主要是把文本层和语音层的边界讲清楚。
+
+- 核心项目现在明确支持纯文本模式
+- TTS 被定义为可选的 adapter 层，而不是必须接入的前提
+- 如果需要情绪语音，Azure Speech 仍然是首选适配
+- Edge TTS 继续保留为兜底
+- 文本怎么写、声音怎么说，开始分别说明，避免没接语音的人被误导
+
 ## 设计原则
 
 - **Low token first**：足够轻，才能进入日常使用。
@@ -162,6 +184,7 @@ generic default 候选目前已经完成了三轮近真实对比：
 - generic default prompt 候选
 - Claude Code 和 Cursor 的第一版适配草案
 - 三轮完成的对比评测
+- 一条已经验证过、情绪感明显的 Azure Speech TTS 路径
 
 到这个节点，Affect Pulse AI 已经可以被视为一个**可用的实验版候选**。
 
@@ -170,3 +193,9 @@ generic default 候选目前已经完成了三轮近真实对比：
 - `default` 是公开 v1 默认候选
 - OpenClaw 已经原生可用
 - 剩余测试更偏向增强信心，而不是实验版公开前的硬阻塞
+
+## TTS 方向
+
+如果要做有情绪感的语音输出，当前最推荐的是 Azure Speech，Edge TTS 继续保留为兜底方案。
+
+具体映射和本地测试脚本见 [docs/tts-azure.md](docs/tts-azure.md)。
