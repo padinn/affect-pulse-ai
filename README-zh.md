@@ -67,6 +67,7 @@ Affect Pulse AI 关注的是：
 - **Portable adapters**：尽可能适配常见 AI 工具，而不要求深度 runtime 接入。
 
 更详细的设计说明见 [docs/design-principles.md](docs/design-principles.md)。
+当前构建路径见 [docs/roadmap.md](docs/roadmap.md)。
 
 ## Profiles
 
@@ -74,6 +75,7 @@ Affect Pulse AI 关注的是：
 
 - [profiles/ultra-lite.md](profiles/ultra-lite.md)
 - [profiles/lite.md](profiles/lite.md)
+- [adapters/README.md](adapters/README.md)
 
 当前的预期是：
 
@@ -97,6 +99,14 @@ Affect Pulse AI 关注的是：
 - OpenCode
 - ChatGPT 风格 system prompt 包
 
+## 第一批可部署适配
+
+第一批真正可用的 v1 适配已经开始落到这里：
+
+- [adapters/generic-system-prompt](adapters/generic-system-prompt/README.md)
+- [adapters/claude-code](adapters/claude-code/README.md)
+- [adapters/cursor](adapters/cursor/README.md)
+
 ## v1 范围
 
 第一版优先做：
@@ -118,6 +128,6 @@ Affect Pulse AI 关注的是：
 
 ## 当前状态
 
-这个仓库目前处于项目定义阶段。
+这个仓库已经不再只是项目定义阶段，而是开始进入第一批可部署 pack 的阶段。
 
-下一步的实际工作重点，是产出第一批可部署的低 token profiles 和 adapter packs。
+下一步的实际工作重点，是测试这些 pack、继续压缩文案，并决定哪个适配版本作为公开 v1 默认值。

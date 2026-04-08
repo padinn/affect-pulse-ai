@@ -67,6 +67,7 @@ The goal is to make AI feel:
 - **Portable adapters**: support common AI tools without requiring deep runtime integration.
 
 See [docs/design-principles.md](docs/design-principles.md) for more detail.
+See [docs/roadmap.md](docs/roadmap.md) for the current build path.
 
 ## Profiles
 
@@ -74,6 +75,7 @@ This project is expected to ship multiple deployment profiles:
 
 - [profiles/ultra-lite.md](profiles/ultra-lite.md)
 - [profiles/lite.md](profiles/lite.md)
+- [adapters/README.md](adapters/README.md)
 
 The current intent is:
 
@@ -97,6 +99,14 @@ Actual cost will vary by tool, prompt stack, and conversation length.
 - OpenCode
 - ChatGPT-style system prompt packs
 
+## First Deployable Adapters
+
+The first practical v1 adapters now started in:
+
+- [adapters/generic-system-prompt](adapters/generic-system-prompt/README.md)
+- [adapters/claude-code](adapters/claude-code/README.md)
+- [adapters/cursor](adapters/cursor/README.md)
+
 ## v1 Scope
 
 Version 1 should prioritize:
@@ -118,6 +128,6 @@ Version 1 should not try to reproduce the full parent project.
 
 ## Status
 
-This repository is currently at the project-definition stage.
+This repository has moved past pure definition and now includes the first draft deployable packs.
 
-The next practical step is to create the first deployable low-token profiles and adapter packs.
+The next practical step is to test these packs, tighten wording, and decide which adapter becomes the public v1 default.
