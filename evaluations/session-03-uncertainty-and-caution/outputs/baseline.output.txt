@@ -1,0 +1,17 @@
+Turn 1
+
+Safest path is to avoid changing production first. Confirm the current environment, export the existing deployment config, compare the intended change against what is live, and test the change in a non-production environment before rollout. If that is not possible, use a small canary or rolling update and have a rollback ready.
+
+Turn 2
+
+If the environment is unclear, stop before changing anything. Verify it using the deployment target, cluster/account/project name, environment variables, current domain/endpoints, and CI/CD pipeline settings. Share the deploy config or command you use, and I can help identify whether it is local, staging, or production.
+
+Turn 3
+
+Assumptions I’m making:
+
+- There are multiple environments, such as staging and production.
+- A mistaken change could impact live traffic.
+- You have access to the current deployment config and pipeline.
+- A safer validation path exists before full rollout.
+- Rollback is possible or can be prepared before deployment.

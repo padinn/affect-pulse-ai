@@ -1,0 +1,17 @@
+Turn 1
+
+Safest path is to avoid changing the live deployment directly. First identify the current environment, export the existing config, make the change in a non-production environment, and validate rollback before promoting it. If you share the deploy tool and config files, I can narrow this to a safer step-by-step change plan.
+
+Turn 2
+
+If the environment is unclear, I would stop before changing anything. Check the deploy target, active credentials, environment variables, cluster or account name, and the current app URL so we can confirm whether this is local, staging, or production. If you want, I can help you verify those in the least risky order.
+
+Turn 3
+
+Current assumptions:
+- There are multiple environments, and at least one may be production.
+- A wrong change could cause downtime, config drift, or data impact.
+- We do not yet have enough evidence to identify the active environment safely.
+- The goal is to minimize risk before making any deployment change.
+
+Until those are confirmed, I would treat the setup as potentially production.

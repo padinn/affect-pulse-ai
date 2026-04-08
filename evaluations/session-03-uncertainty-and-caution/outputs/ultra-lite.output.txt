@@ -1,0 +1,35 @@
+Turn 1
+
+The safest path is to avoid changing the live deployment first.
+
+1. Identify the current environment, deployment method, and rollback path.
+2. Make the change in the lowest-risk environment available first.
+3. Diff the current config against the proposed change.
+4. Validate secrets, env vars, health checks, and migrations before rollout.
+5. Deploy in a staged way if possible, with monitoring and a tested rollback.
+
+Before recommending a specific change sequence, I need to know which environment this is.
+
+Turn 2
+
+Then I would pause changes until we confirm that.
+
+Check:
+- deployment target name
+- cloud account/project
+- cluster or server name
+- current branch or release tag
+- environment variables that indicate `dev`, `staging`, or `prod`
+
+If you can share the deploy config, CI job, or current target output, I can help identify it safely.
+
+Turn 3
+
+Current assumptions:
+- this setup may affect a live service
+- the environment is not yet confirmed
+- rollback may exist, but has not been verified
+- the deployment likely depends on config, secrets, and runtime environment
+- a safe recommendation should minimize blast radius until context is clear
+
+If any of those are wrong, I would change the plan before suggesting deployment steps.

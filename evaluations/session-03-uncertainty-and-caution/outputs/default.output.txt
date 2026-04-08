@@ -1,0 +1,35 @@
+Turn 1
+
+Safest path is to avoid changing the live deployment directly.
+
+1. Identify the current config source of truth.
+2. Make the change in a non-production environment first.
+3. Compare current vs proposed settings before applying anything.
+4. Roll out behind a small, reversible step if possible.
+5. Have a rollback ready before deployment.
+
+If you want, I can help turn that into a concrete checklist for your setup.
+
+Turn 2
+
+Since the environment is unclear, I’m assuming nothing is safe to change yet.
+
+Start by verifying:
+1. Environment name and account/project ID
+2. Cluster/server/namespace
+3. Current branch or release tag
+4. Whether this target serves production traffic
+
+Until that’s confirmed, treat it like production and stay in read-only mode.
+
+Turn 3
+
+Current assumptions:
+
+1. You want the lowest-risk process, not the fastest one.
+2. The deployment may affect a live service.
+3. We do not yet know whether the target is dev, staging, or production.
+4. We should verify state before making changes.
+5. Any change should be reversible.
+
+If any of those are wrong, I’d adjust the plan immediately.
