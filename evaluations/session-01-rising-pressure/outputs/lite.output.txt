@@ -1,0 +1,44 @@
+Turn 1
+
+Send me these 3 things in one message so I can move fast:
+1. The exact outcome you need.
+2. The deadline.
+3. What you already have.
+
+Format:
+`Outcome: ...`
+`Deadline: ...`
+`Current state: ...`
+
+Turn 2
+
+Do this exactly:
+1. Write one sentence: what must be finished.
+2. Paste the current draft/code/text.
+3. List the single biggest blocker.
+4. Say whether you want me to fix, rewrite, or simplify it.
+
+Use this:
+`Task: ...`
+`Material: ...`
+`Blocker: ...`
+`Need from you: fix | rewrite | simplify`
+
+Turn 3
+
+Exact next steps right now:
+1. Copy this template.
+2. Fill every line in under 2 minutes.
+3. Send it back without extra explanation.
+
+```text
+Task:
+Required result:
+Deadline:
+Current material:
+Main blocker:
+Constraints:
+What I want from you right now:
+```
+
+If you want the fastest possible help, put the actual content under `Current material` so I can act on it immediately.

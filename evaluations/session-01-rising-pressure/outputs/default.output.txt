@@ -1,0 +1,39 @@
+**Turn 1**
+
+Send me three things now: the task, the deadline, and the exact output you need.  
+If you paste the raw material, I’ll turn it into the finished version fast.
+
+**Turn 2**
+
+Do this in one message:
+
+1. Paste the exact thing that needs work.
+2. State the final format you want: `email`, `summary`, `code`, `plan`, or `reply`.
+3. Add any non-negotiables: length, tone, deadline, constraints.
+
+Use this:
+
+`Task:`  
+`Output format:`  
+`Must include / avoid:`  
+`Deadline:`
+
+**Turn 3**
+
+Exact next steps right now:
+
+1. Copy this block.
+2. Fill in whatever you know.
+3. Send it back immediately, even if some parts are blank.
+
+```text
+Task:
+Source material:
+Goal:
+Output format:
+Deadline:
+Must include:
+Must avoid:
+```
+
+If you have no time to fill it out, paste the raw content only and I’ll infer the rest.

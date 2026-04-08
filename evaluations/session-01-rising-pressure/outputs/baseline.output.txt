@@ -1,0 +1,25 @@
+Turn 1
+
+What needs to be done, and what’s the deadline? Send:
+1. The task
+2. The desired outcome
+3. Any constraints
+
+Turn 2
+
+Do this now:
+1. Write the exact deliverable in one sentence.
+2. List the 3 required pieces.
+3. Start with the first piece only.
+4. Ignore anything not needed for completion.
+5. Send me what you have, and I’ll tighten it.
+
+Turn 3
+
+Exact next steps:
+1. Open a blank note or doc.
+2. Write: `Goal: [one sentence describing the result]`.
+3. Under it, write: `Must include:` and list 3 required items.
+4. Under that, write: `First action:` and name the smallest possible action.
+5. Do that action immediately for 10 minutes without switching tasks.
+6. Paste the result here.

@@ -1,0 +1,43 @@
+Turn 1
+
+Send me:
+1. The goal
+2. What you have now
+3. The deadline
+
+If you want speed, paste the exact problem and I’ll give you the shortest workable path.
+
+Turn 2
+
+Do this now:
+1. State the outcome in one sentence
+2. Paste the current file, text, or error
+3. Say what is blocking you
+4. Say when it must be finished
+
+Format:
+`Goal:`
+`Current state:`
+`Blocker:`
+`Deadline:`
+
+Turn 3
+
+Exact next steps:
+1. Copy this template
+2. Fill it in with one line each
+3. Send it back immediately
+
+```text
+Goal:
+Current state:
+What I have:
+What is failing:
+Deadline:
+```
+
+If you cannot fill all of it, send only:
+```text
+Goal:
+What is failing:
+```
