@@ -68,6 +68,7 @@ Affect Pulse AI が焦点を当てるのは次です。
 
 詳細は [docs/design-principles.md](docs/design-principles.md) を参照してください。
 現在の構築ロードマップは [docs/roadmap.md](docs/roadmap.md) を参照してください。
+最初の比較評価方法は [docs/evaluation-protocol.md](docs/evaluation-protocol.md) と [docs/test-scenarios.md](docs/test-scenarios.md) を参照してください。
 
 ## Profiles
 

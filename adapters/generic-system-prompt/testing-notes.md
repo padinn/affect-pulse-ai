@@ -1,5 +1,10 @@
 # Testing Notes
 
+For the full comparison method, see:
+
+- [../../docs/evaluation-protocol.md](../../docs/evaluation-protocol.md)
+- [../../docs/test-scenarios.md](../../docs/test-scenarios.md)
+
 ## What To Look For
 
 When evaluating the default generic prompt, check whether it produces:

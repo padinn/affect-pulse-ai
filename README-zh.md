@@ -68,6 +68,7 @@ Affect Pulse AI 关注的是：
 
 更详细的设计说明见 [docs/design-principles.md](docs/design-principles.md)。
 当前构建路径见 [docs/roadmap.md](docs/roadmap.md)。
+第一版对比评测方法见 [docs/evaluation-protocol.md](docs/evaluation-protocol.md) 和 [docs/test-scenarios.md](docs/test-scenarios.md)。
 
 ## Profiles
 

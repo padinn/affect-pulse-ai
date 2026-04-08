@@ -68,6 +68,7 @@ The goal is to make AI feel:
 
 See [docs/design-principles.md](docs/design-principles.md) for more detail.
 See [docs/roadmap.md](docs/roadmap.md) for the current build path.
+See [docs/evaluation-protocol.md](docs/evaluation-protocol.md) and [docs/test-scenarios.md](docs/test-scenarios.md) for the first comparison framework.
 
 ## Profiles
 
