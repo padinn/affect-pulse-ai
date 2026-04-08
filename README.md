@@ -12,6 +12,7 @@ The repository now also includes a native OpenClaw skill at the root:
 
 - [SKILL.md](SKILL.md)
 - [_meta.json](_meta.json)
+- [CHANGELOG.md](CHANGELOG.md)
 
 ## What It Is
 
@@ -84,6 +85,8 @@ This release clarifies the split between the text layer and the voice layer.
 - Azure Speech is the preferred emotional voice adapter when TTS is available
 - Edge TTS remains a fallback path
 - text shaping and voice shaping are described separately so non-TTS users can still use the core skill cleanly
+
+See [CHANGELOG.md](CHANGELOG.md) for the full release notes.
 
 ## Design Principles
 

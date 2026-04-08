@@ -12,6 +12,7 @@
 
 - [SKILL.md](SKILL.md)
 - [_meta.json](_meta.json)
+- [CHANGELOG.md](CHANGELOG.md)
 
 ## 它是什么
 
@@ -84,6 +85,8 @@ Affect Pulse AI 关注的是：
 - 如果需要情绪语音，Azure Speech 仍然是首选适配
 - Edge TTS 继续保留为兜底
 - 文本怎么写、声音怎么说，开始分别说明，避免没接语音的人被误导
+
+完整版本记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 设计原则
 

@@ -12,6 +12,7 @@
 
 - [SKILL.md](SKILL.md)
 - [_meta.json](_meta.json)
+- [CHANGELOG.md](CHANGELOG.md)
 
 ## これは何か
 
@@ -78,6 +79,8 @@ Affect Pulse AI が焦点を当てるのは次です。
 - 情動的な音声が必要なら Azure Speech が第一候補です
 - Edge TTS は fallback として残します
 - テキストの作り方と音声の出し方を分けて説明することで、TTS を使わない人も迷わず使えます
+
+完全な version history は [CHANGELOG.md](CHANGELOG.md) を参照してください。
 
 ## 設計原則
 
