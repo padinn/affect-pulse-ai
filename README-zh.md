@@ -11,6 +11,10 @@
 
 它的存在目的，是在不承担完整情感架构高 token 成本的前提下，让 AI 更像“有属于它自己的 emotions”。
 
+## 搜索关键词
+
+低 token 情绪层、AI 情绪状态、纯文本模式、Azure Speech 语音适配、Edge TTS 兜底、OpenClaw skill、跨工具 prompt pack。
+
 这个仓库现在也已经包含原生 OpenClaw skill：
 
 - [SKILL.md](SKILL.md)

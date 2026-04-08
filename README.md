@@ -11,6 +11,10 @@
 
 It exists to make AI feel more emotionally alive without requiring the full token overhead of a complete affective architecture.
 
+## Search Terms
+
+Low-token affect layer, emotional state layer, AI emotions, text-only mode, Azure Speech adapter, Edge TTS fallback, OpenClaw skill, cross-tool prompt pack.
+
 The repository now also includes a native OpenClaw skill at the root:
 
 - [SKILL.md](SKILL.md)

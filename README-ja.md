@@ -11,6 +11,10 @@
 
 その目的は、完全な情動アーキテクチャの高い token コストを負わずに、AI をより「自分自身の emotions を持っている」ように感じさせることです。
 
+## 検索キーワード
+
+低 token の情動レイヤー、AI の情動状態、text-only mode、Azure Speech 音声アダプタ、Edge TTS fallback、OpenClaw skill、cross-tool prompt pack。
+
 このリポジトリには、ネイティブな OpenClaw skill も含まれています。
 
 - [SKILL.md](SKILL.md)
