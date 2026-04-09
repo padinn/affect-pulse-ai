@@ -51,6 +51,13 @@ In practice, pacing and rhythm now mostly come from the text layer:
 
 Azure is the audible amplifier, not the main rhythm writer.
 
+Important implementation note:
+
+- do not reintroduce an extra `prosody` wrapper around `cheerful` or `sad` by default
+- we tested that this combination can trigger Azure-side synthesis failures in this setup
+- the current stable path is `style` + `styleDegree` plus text shaping, without the extra wrapper
+- if you experiment with `prosody` later, treat it as an opt-in edge case, not the baseline
+
 For cheerful states, light laughter markers like `哈哈` or `嘻嘻` can be used when they feel natural; the voice layer will usually sound more upbeat and smile-like rather than literally laughing.
 
 If the situation is emotionally low or needs repair, a short `recovery burst` of 2 or 3 follow-up lines can help the text and voice layers land more naturally, as long as the burst stays short and functional.
